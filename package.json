@@ -1,0 +1,20 @@
+{
+  "name": "inline-plugin",
+  "version": "0.0.1",
+  "description": "Webpack plugin for functions' inlining (similar DefinePlugin, but for functions)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "optimization",
+    "inlining"
+  ],
+  "author": "Alexander Rusakov <a_s_rusakov@mail.ru> (https://github.com/arusakov)",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^1.12.2"
+  }
+}
