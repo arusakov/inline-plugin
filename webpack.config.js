@@ -1,5 +1,7 @@
 var path = require('path');
-var InlinePlugin = require('./');
+
+var webpack = require('webpack');
+var InliningPlugin = require('./');
 
 var PATH_ROOT = __dirname;
 var PATH_FIXTURES = path.join(PATH_ROOT, 'fixtures');
@@ -14,14 +16,9 @@ module.exports = {
     filename: '[name].comp.js'
   },
   plugins: [
-    new InlinePlugin({
-      ARGS: function (args) {
-        var arr = [];
-        for (var i = 0; i < args.length; ++i) {
-          arr.push(args[i]);
-        }
-        return arr;
-      }
+    new InliningPlugin({
+      // ARGS: '[]; for (var i = 0; i < arguments.length; ++i) { args.push(arguments[i]); }'
+      ARGS: function ARGS(x) {}
     })
   ]
 }

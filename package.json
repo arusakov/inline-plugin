@@ -1,7 +1,7 @@
 {
-  "name": "inline-plugin",
-  "version": "0.0.1",
-  "description": "Webpack plugin for functions' inlining (similar DefinePlugin, but for functions)",
+  "name": "inlining-plugin",
+  "version": "0.1.0",
+  "description": "Webpack plugin for function inlining (similar DefinePlugin, but for functions)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

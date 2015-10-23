@@ -1,4 +1,4 @@
 function test() {
-  var arr = ARGS(arguments);
-  return arr;
+  var args = ARGS(arguments);
+  return args;
 }
