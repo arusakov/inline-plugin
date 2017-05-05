@@ -15,6 +15,6 @@
   "author": "Alexander Rusakov <a_s_rusakov@mail.ru> (https://github.com/arusakov)",
   "license": "MIT",
   "devDependencies": {
-    "webpack": "^1.12.2"
+    "webpack": "^2.5.0"
   }
 }
